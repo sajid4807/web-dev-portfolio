@@ -5,6 +5,11 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
 /* COMMON STYLES */
 .btn-primary{
     padding: 18px 35px;
@@ -15,12 +20,39 @@
     font-weight: bold;
     font-size: 20px;
 }
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.heading{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin: 0;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+    padding: 30px 0;
+    margin: 0;
+}
 /* header styles */
 .header{
     background-image: url(../images/developer.png) , url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position:top left, bottom right ;
+    /* margin: 38px 0 0 23px; */
+    /* padding: 38px 0 0 23px; */
+}
+/* header{
     margin: 38px 0 0 23px;
+} */
+/* header{
+    background-color: #FFF8F3;
+} */
+ /* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
 }
 /* NAV STYLES */
 
@@ -58,6 +90,7 @@ nav li a{
     display: flex;
     justify-content: space-between;
     margin: 0 35px 0 200px;
+    align-items: center;
 }
 .banner-content{
     max-width: 585px;
@@ -83,4 +116,27 @@ nav li a{
     background-color: transparent;
     border:1px solid #FD6E0A;
     margin-left: 30px;
+}
+/* about styles */
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.about{
+    padding: 130px 155px 120px;
+    margin-top: 130px;
+    text-align: center;
+    border-radius: 10px;
+}
+.item-description{
+    font-weight: bold;
+    font-size: 20px;
+    color: #474747;
+}
+.item-title{
+    font-size: 20px;
+    color: #757575;
+}
+.about-item{
+    margin: 0;
 }
