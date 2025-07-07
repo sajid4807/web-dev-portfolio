@@ -20,6 +20,7 @@
     background-image: url(../images/developer.png) , url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position:top left, bottom right ;
+    margin: 38px 0 0 23px;
 }
 /* NAV STYLES */
 
@@ -64,14 +65,22 @@ nav li a{
 .banner-greetings{
     font-size: 45px;
     font-weight: 600;
+    margin: 0;
 }
 .banner-title{
     font-weight: 700;
     font-size: 85px;
+    margin: 5px 0 20px;
 }
 .banner-description{
     font-size: 18px;
+    margin: 0 0 30px;
 }
 .banner-profile-pic{
     width: 584px;
+}
+.btn-primary.outline{
+    background-color: transparent;
+    border:1px solid #FD6E0A;
+    margin-left: 30px;
 }
