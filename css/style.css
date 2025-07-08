@@ -47,7 +47,7 @@
     background-repeat: no-repeat;
     background-position:top left, bottom right ;
     /* margin: 38px 0 0 23px; */
-    /* padding: 38px 0 0 23px; */
+    /* padding: 38px 0 25px 23px; */
 }
 /* header{
     margin: 38px 0 0 23px;
@@ -207,4 +207,33 @@ nav li a{
 }
 .resume-download-cv{
     margin-top: 50px;
+    margin-bottom: 113px;
+}
+/* footer styles */
+footer{
+    display: flex;
+    gap: 100px;
+    padding: 130px 230px;
+}
+.footer-column{
+    width: 50%;
+}
+.footer-description{
+    margin: 20px 0 30px;
+}
+.footer-icon a img{
+    padding-right: 24px;
+}
+footer input[type="text"], input[type="email"], textarea {
+    width: 90%;
+    padding: 18px 30px;
+    background-color: white;
+    color: #757575;
+    font-size: 20px;
+    margin-top: 24px;
+    border: none;
+    border-radius: 5px;
+}
+footer input[type="submit"]{
+    margin-top: 24px;
 }
