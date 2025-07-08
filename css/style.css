@@ -20,6 +20,9 @@
     font-weight: bold;
     font-size: 20px;
 }
+.text-center{
+    text-align: center;
+}
 .secondary-bg{
     background-color: #FFF8F3;
 }
@@ -29,7 +32,7 @@
     color: #181818;
     margin: 0;
 }
-.section-description{
+.section-description{   
     font-size: 18px;
     color: #757575;
     padding: 30px 0;
@@ -132,11 +135,37 @@ nav li a{
     font-weight: bold;
     font-size: 20px;
     color: #474747;
+    margin: 0;
 }
 .item-title{
     font-size: 20px;
     color: #757575;
+    margin: 0;
 }
 .about-item{
+    margin: 0;
+}
+/* skills styles */
+.skills{
+    margin-top: 130px;
+}
+.skills-card{
+    display: flex;
+    gap: 30px;
+}
+.skill{
+    padding: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-title{
+    font-weight: bold;
+    font-size: 20px;
+    color: #181818;
+    margin: 30px 0 20px;
+}
+.skill-description{
+    font-size: 16px;
+    color: #757575;
     margin: 0;
 }
